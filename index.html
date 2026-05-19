@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Elite Stopwatch Pro</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="particles"></div>
+
+<div class="app-container">
+
+  <div class="sidebar">
+
+    <h1>⏱ Elite Pro</h1>
+
+    <div class="live-status">
+      <span class="dot"></span>
+      Live Session
+    </div>
+
+    <div class="stats-card">
+      <h3>Total Laps</h3>
+      <p id="lapCount">0</p>
+    </div>
+
+    <div class="stats-card">
+      <h3>Average Lap</h3>
+      <p id="avgLap">00:00:00</p>
+    </div>
+
+    <div class="stats-card">
+      <h3>Best Lap</h3>
+      <p id="bestLap">--</p>
+    </div>
+
+  </div>
+
+  <div class="main-content">
+
+    <div class="topbar">
+
+      <div class="clock" id="clock"></div>
+
+      <div class="top-actions">
+
+        <button id="themeBtn">🌙</button>
+        <button id="fullscreenBtn">⛶</button>
+
+      </div>
+
+    </div>
+
+    <div class="stopwatch-card">
+
+      <div class="ring">
+        <div class="time-display" id="display">
+          00:00:00:000
+        </div>
+      </div>
+
+      <div class="controls">
+
+        <button class="btn start" id="startBtn">
+          Start
+        </button>
+
+        <button class="btn pause" id="pauseBtn">
+          Pause
+        </button>
+
+        <button class="btn lap" id="lapBtn">
+          Lap
+        </button>
+
+        <button class="btn reset" id="resetBtn">
+          Reset
+        </button>
+
+      </div>
+
+    </div>
+
+    <div class="laps-container">
+
+      <div class="laps-header">
+
+        <h2>Lap Analytics</h2>
+
+        <div>
+
+          <button id="exportBtn">
+            Export
+          </button>
+
+          <button id="clearBtn">
+            Clear
+          </button>
+
+        </div>
+
+      </div>
+
+      <ul id="laps"></ul>
+
+    </div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
