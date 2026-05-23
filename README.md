@@ -1,21 +1,20 @@
-# Stopwatch Web Application
+# Elite Stopwatch Pro
 
-A professional and responsive stopwatch web application built using HTML, CSS, and JavaScript.
+A premium Stopwatch Web Application built using HTML, CSS, and JavaScript.
 
-## Features
-- Start / Pause / Reset
-- Lap Time Tracking
+##  Live Demo
+ https://endearing-otter-c2aec5.netlify.app/
+
+##  Features
+- Millisecond Precision
+- Lap Tracking
+- Dark Mode
 - Responsive Design
-- Modern UI
-- Accurate Time Calculation
+- Keyboard Shortcuts
+- Export Lap Data
+- Modern Glassmorphism UI
 
-## Technologies Used
-- HTML
-- CSS
+##  Technologies Used
+- HTML5
+- CSS3
 - JavaScript
-
-## Live Demo
-Add your Netlify/Vercel link here
-
-## Screenshot
-![Preview](stopwatch-preview.png) 
